@@ -348,10 +348,10 @@ async function loadTasks() {
     tasks.forEach(t => renderTask(t));
   } else {
     [
-      { id: 1, text: 'Morning journaling', done: true },
-      { id: 2, text: 'Review weekly budget', done: false },
-      { id: 3, text: '30 min walk', done: false },
-      { id: 4, text: 'Reply to emails', done: false },
+      { id: 1, text: 'Check mail for taxes, done: true },
+      { id: 2, text: 'Work on physical check list', done: false },
+      { id: 3, text: 'Walk the dog', done: false },
+      { id: 4, text: 'Pay water bill', done: false },
     ].forEach(t => { tasks.push(t); renderTask(t); });
   }
   updateTaskCount();
